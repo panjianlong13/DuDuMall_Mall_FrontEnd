@@ -1,6 +1,11 @@
 # DuDuMall_FrontEnd
 SpringCloud全家桶商城网站前端部分，没想到啥好名字，暂时就用我女儿的小名好了。感谢SandChen同学在前端的鼎力合作！
 
+# 启动前端工程
+cd app-store
+yarn install
+yarn start
+
 ### 第一阶段： 
 * 前端:首页页面 
 * 后端:认证中心 商品微服务 购物车微服务 用户微服务 订单微服务 
