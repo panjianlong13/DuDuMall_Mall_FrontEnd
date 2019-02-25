@@ -22,19 +22,19 @@ class Root extends React.Component {
   componentDidMount() {
   }
 
-  getPage(props, page) {
-    return this.isAuthenrized ?
-      React.createElement(page, props) :
-      <Redirect to={{
-        pathname: "/login",
-        state: Object.assign({ redirectTo: props.location.pathname }, window.history.state)
-      }} />
-  }
+//   getPage(props, page) {
+//     return this.isAuthenrized ?
+//       React.createElement(page, props) :
+//       <Redirect to={{
+//         pathname: "/login",
+//         state: Object.assign({ redirectTo: props.location.pathname }, window.history.state)
+//       }} />
+//   }
 
   render() {
 
     return (
-      <div className="cm4e">
+      <div className="mall">
 
         <BrowserRouter>
           <div>
