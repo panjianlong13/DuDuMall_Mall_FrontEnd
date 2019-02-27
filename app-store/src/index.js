@@ -3,6 +3,7 @@ import { Route, Redirect } from 'react-router';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Loadable from 'react-loadable';
+import "antd/dist/antd.css";
 require('./index.scss');
 
 const loading = function () {

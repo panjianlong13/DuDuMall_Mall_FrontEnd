@@ -1,0 +1,47 @@
+#mall-topbar{
+    background-color: #24292e;
+    text-align: -webkit-right;
+    padding-right: 10px;
+    height: 3.9rem;
+    .mall-logo{
+        color: #ffffff;
+        font-size: 1.3rem;
+        width: 20%;
+        text-align: left;
+        padding-left: 20px;
+        line-height: 3.8rem;
+        float: left;
+    }
+    .mall-meun{
+        float: left;
+        width: 80%;
+        .ant-menu-horizontal{
+            background-color: #24292e;
+            color: #ffffff;
+            text-align: right;
+            display: table-cell;
+            border-bottom: none;
+            line-height: 3.8rem;
+           }
+           
+       .search-input{
+           display: table-cell;
+           padding: 15px 10px;
+           .ant-input-search-button{
+             background: #ffffff;
+             color: #24292e;
+             border: #d9d9d9;
+           }
+       }
+       .user-icon{
+           display: table-cell;
+           .icon-img{
+            width: 30px;
+            height: 30px;
+            background-color: gray;
+            border-radius: 50%;
+           }
+       }
+    }
+   
+}
